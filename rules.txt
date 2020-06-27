@@ -1,0 +1,11 @@
+Rules for the Conway's Game of Life are as follows:
+1. Live cell (+1) with < 2 live neighbours dies (underpopulation).
+2. Live cell (+1) with 2 or 3 live neighbours lives (just right).
+3. Live cell (+1) with > 3 live neighbours dies (overpopulation).
+4. Dead cell (-1) with exactly 3 live neighbours becomes live (birth).
+
+Neighborhood is defined as the Moore neighbourhood (closest 8 cells).
+
+References:
+https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life
+https://en.wikipedia.org/wiki/Moore_neighborhood
